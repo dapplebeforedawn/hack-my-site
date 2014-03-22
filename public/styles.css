@@ -1,0 +1,16 @@
+input[type="text"].form-control {
+  width: 300px;
+}
+
+body {
+  font-size: large;
+  background-color: black;
+  background-image: url("/binding_dark.png");
+  background-repeat: repeat-x repeat-y;
+  color: #aaa;
+}
+
+p {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}

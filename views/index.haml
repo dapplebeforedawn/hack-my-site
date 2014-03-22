@@ -1,0 +1,18 @@
+.container
+  .row
+    %h1 HackMySite
+    .highlight
+      %h2 Instructions
+      %p Use your resourcefulness to login as the admin user for this site.  Send the admin user's <code>secret</code> to l33thacker@covermymeds.com along with your resume.
+  .row
+    %br
+    %form.form-inline(role="form" action="/login" method="POST")
+      .form-group
+        %input.form-control(type="text" placeholder="username" name="username" value="admin")
+        %input.form-control(type="text" placeholder="password" name="password")
+        %input.form-control.btn.btn-primary(type="submit" value="submit" disabled="disabled")
+
+  .row
+    %p
+      %div Rember to:
+      %img(src="http://i.imgur.com/mMc63at.gif")
